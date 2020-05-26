@@ -1,0 +1,26 @@
+------game results-------
+user : adf
+success: true
+time used: 11
+user : pap
+success: true
+time used: 13
+user : sunli
+success: true
+time used: 15
+
+winner: adf
+date:2020-15-26 05:15:28
+------game results-------
+user : pap
+success: true
+time used: 27
+user : sunli
+success: true
+time used: 25
+user : bob
+success: true
+time used: 22
+
+winner: bob
+date:2020-16-26 05:16:24

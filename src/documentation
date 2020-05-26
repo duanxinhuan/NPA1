@@ -1,0 +1,21 @@
+package ---client
+Client: start the client start the client IO
+ClientIo: receive and send message to the server, game logic on the client side
+UDPreserver:receive udp message sent by the server
+
+package ---Server
+AliveKeeper: send keep alive message to the user via udp
+ClientHandler: send recieve data to client, individual game logic
+Game: whole game logic
+LogWriter:write log file
+Server: get client connection
+
+package ---Utilizer:
+StreamManager: manage the stream of TCP
+
+
+Client0*:
+a main function for client
+
+Server0*
+a main function for Server
