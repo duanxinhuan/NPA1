@@ -19,7 +19,7 @@ public class LogWriter {
     public void writeConnection(String address){
         // write to connection log
         try {
-            writer = new FileWriter("src/connection.txt",true);
+            writer = new FileWriter("connection.txt",true);
             writer.write("address: " + address +"\n"
             + "date:"+ getTime() +"\n"
             +"activity: connect to play the game\n");
@@ -32,7 +32,7 @@ public class LogWriter {
     public void writeGame(String result){
         // write to game log
         try {
-            writer = new FileWriter("src/gamelog.txt",true);
+            writer = new FileWriter("gamelog.txt",true);
             writer.write("------game results-------\n"
                     +result+'\n'
                     + "date:"+ getTime() +"\n");

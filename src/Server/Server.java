@@ -11,7 +11,7 @@ public class Server {
     // recieve and accept connection from the client
     Queue<ClientHandler> queue = new LinkedList<>();
     Game game;
-    private final static int PORT = 11137;
+    private final static int PORT = 61128;
     private Socket connection;
     private LogWriter writer = new LogWriter();
 
