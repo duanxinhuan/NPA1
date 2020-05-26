@@ -52,7 +52,7 @@ public class AliveKeeper implements Runnable{
     }
 
     public void send(String s) throws IOException {
-        InetAddress ip = InetAddress.getByName("localhost");
+        InetAddress ip = InetAddress.getByName(this.IP);
         DatagramPacket dp = new DatagramPacket(s.getBytes(), s.length(), ip, port);
         ds.send(dp);
     }
